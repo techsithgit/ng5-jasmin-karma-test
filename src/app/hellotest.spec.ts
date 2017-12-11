@@ -6,12 +6,14 @@ describe('hellotest', ()=>{
   let notExpected = '';
   let expectMatch = null;
 
-  beforeEach(()=>{
+  // runs before each test
+  beforeEach(()=> {
     expected = 'hellotest';
     notExpected = 'hellotest123';
     expectMatch = new RegExp(/^hello/);
   });
 
+  // runs after each test
   afterEach(()=>{
     expected = '';
     notExpected = '';

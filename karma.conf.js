@@ -8,7 +8,7 @@ module.exports = function (config) {
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
-      require('karma-firefox-launcher'),
+      require('karma-firefox-launcher'), // npm install karma-firefox-launcher --save-dev
       require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
       require('@angular/cli/plugins/karma')

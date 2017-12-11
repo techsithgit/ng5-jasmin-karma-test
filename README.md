@@ -4,5 +4,10 @@ from the command prompt clone the project
 * $cd ng5-jasmin-karma-test
 * $npm install
 * $npm start
+* $npm install karma-firefox-launcher --save-dev
 
-[Watch the Tutorial](https://youtu.be/uGgPINlKqBs).
+[Watch the Tutorial](https://youtu.be/D6qPDww2X8k).
+
+## Other commands
+* $ng new ng5-jasmin-karma-test // Create a new project using Angular CLI
+* $ng g service test // Create a new service called test
